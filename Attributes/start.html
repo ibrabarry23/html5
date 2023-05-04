@@ -1,0 +1,44 @@
+
+<!-- 
+
+
+Add to the start.html page:
+* a disabled button.
+* an input field with label, in the range of 0-100 and double step (the input type number should have the focus on the opening of the page)
+* a checkbox with label (the checkbox should be already selected)
+* an input date type.
+
+
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <button disabled>Click Me</button>
+
+    <br><br>
+    <label for="range-input">Enter a number between 0 and 100:</label>
+    <input type="number" id="range-input" name="range-input" min="0" max="100" step="0.01" value="50" autofocus>
+    <br><br>
+
+    <label for="checkbox">Check this box:</label>
+    <input type="checkbox" id="checkbox" name="checkbox" checked>
+
+    <br><br>
+
+    <label for="date-input">Choose a date:</label>
+    
+    <input type="date" id="date-input" name="date-input">
+
+  </body>
+
+</html>
